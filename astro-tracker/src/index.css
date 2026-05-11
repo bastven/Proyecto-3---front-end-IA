@@ -1,0 +1,75 @@
+:root {
+  --bg-color: #050505;
+  --text-color: #ffffff;
+  --text-muted: #a0a0a0;
+  --magenta: #FF00FF;
+  --magenta-hover: #cc00cc;
+  --yellow: #FFFF00;
+  --yellow-hover: #cccc00;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --glass-bg: rgba(20, 20, 20, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --font-family: 'Inter', 'Roboto', 'Outfit', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  min-height: 100vh;
+  /* subtle star pattern background */
+  background-image: 
+    radial-gradient(1px 1px at 10% 10%, #fff 100%, transparent),
+    radial-gradient(1px 1px at 20% 40%, #fff 100%, transparent),
+    radial-gradient(1px 1px at 40% 20%, #fff 100%, transparent),
+    radial-gradient(2px 2px at 80% 80%, #fff 100%, transparent),
+    radial-gradient(2px 2px at 60% 60%, #fff 100%, transparent),
+    radial-gradient(1px 1px at 90% 30%, #fff 100%, transparent);
+  background-size: 200px 200px;
+}
+
+a {
+  color: var(--yellow);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--magenta);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', var(--font-family);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Scrollbar styling for webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--glass-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--magenta);
+}
