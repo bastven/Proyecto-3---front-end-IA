@@ -16,7 +16,10 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 
+
 ##Promp utilizado para el desarrollo
+
+
 Actúa como un Desarrollador Senior de React. Crea una Single Page Application (SPA) llamada 'Astro-Tracker'.
 
 Diseño Visual: Estética profesional inspirada en centros de control espacial. Fondo #050505. Usa Magenta (#FF00FF) para llamadas a la acción y estados de error, y Amarillo (#FFFF00) para elementos destacados, bordes de cards y estados de éxito.
